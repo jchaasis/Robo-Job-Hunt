@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <title> Robo Job Hunt </title>
+  <meta charset="utf-8">
+  <link
+  rel="stylesheet" href="/main.css" >
+</head>
+
+<body>
+    <main class="container">
+      {{#users}}
+        <div class="user">
+          <img src={{avatar}}>
+          <h2>{{name}}</h2>
+          <p>{{company}}</p>
+        </div>
+      {{/users}}
+    </main>
+
+</body>
+
+
+</html>
